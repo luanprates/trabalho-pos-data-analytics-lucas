@@ -10,6 +10,8 @@
 
 Considere os	dados	do	arquivo	“ex1data1.txt”.	Plote	os	dados	em	um	gráfico	(com	a	biblioteca	matplotlib)	colocando	a	primeira	coluna	dos	dados	no	eixo	x	e	a	segunda	coluna	no	eixo	y.	Baseado	na	visualização	obtida,	um	modelo	de	regressão	linear	seria	adequado	para	representar	esses	dados?			Para	este	conjunto	de	dados,	considere	a	primeira	coluna	dos	dados	como	o	único	atributo	dos	indivíduos	(X)	e	a	segunda	coluna	é	o	rótulo	dos	mesmos	(y).
 
+[Resposta](./Questão-1.png)
+
 
 	
 ## Questão 2
