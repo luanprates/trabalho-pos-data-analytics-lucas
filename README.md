@@ -12,7 +12,6 @@ Considere os	dados	do	arquivo	“ex1data1.txt”.	Plote	os	dados	em	um	gráfico	
 
 ![Gráfico](https://github.com/luanprates/trabalho-pos-data-analytics-lucas/blob/master/Quest%C3%A3o-1.png)
 
-
 	
 ## Questão 2
 
@@ -20,7 +19,9 @@ Carregue os dados contidos no arquivo “ex2data1.txt”.  O arquivo contem 100 
  
 - Divida o conjunto de dados entre treino e teste. - Utilize a Regressão Logística para efetuar a classificação nos dados de treino e calcule a acurácia (score) obtida para o conjunto de teste.
 
-Questão 3. - Carregue os dados contidos no Dataset de Câncer (breast cancer) do scikit-learn. - Divida o conjunto de dados entre treino e teste.  - Utilize o Classificador do SVM (SVC) para realizar a classificação dos dados carregados. - Varie o parâmetro C de 0.1 a 1 e mostre um gráfico contendo a diferença entre os scores obtidos no conjunto de treino para cada valor do parâmetro C. - Varie o parâmetro C de 0.1 a 1 e mostre um gráfico contendo a diferença entre os scores obtidos no conjunto de teste para cada valor do parâmetro C. Justifique as diferenças apresentadas em nos gráficos do treino e do teste para cada valor de C. 
+
+## Questão 3
+Carregue os dados contidos no Dataset de Câncer (breast cancer) do scikit-learn. - Divida o conjunto de dados entre treino e teste.  - Utilize o Classificador do SVM (SVC) para realizar a classificação dos dados carregados. - Varie o parâmetro C de 0.1 a 1 e mostre um gráfico contendo a diferença entre os scores obtidos no conjunto de treino para cada valor do parâmetro C. - Varie o parâmetro C de 0.1 a 1 e mostre um gráfico contendo a diferença entre os scores obtidos no conjunto de teste para cada valor do parâmetro C. Justifique as diferenças apresentadas em nos gráficos do treino e do teste para cada valor de C. 
  
 Questão 4. – Carregue os dados contidos no arquivo “fruit_data_with_colors_miss.txt”.  - Utilize a estratégia de imputar os dados faltantes utilizando a média  dos demais dados. - Divida o conjunto de dados entre treino e teste. - Utilize o Classificador do KNN para realizar a classificação dos dados carregados, com o conjunto de atributos sendo constituído das colunas “mass”, “width”, “height” e “color_score” e o rótulo sendo constituído pela coluna “fruit_label”. - Varie o parâmetro n_neighbors de 1 a 10 e mostre um gráfico contendo a diferença entre os scores obtidos no conjunto de treino para cada valor do parâmetro. - Varie o parâmetro n_neighbors de 1 a 10 e mostre um gráfico contendo a diferença entre os scores obtidos no conjunto de teste para cada valor do parâmetro. Justifique as diferenças apresentadas em nos gráficos do treino e do teste para cada valor de n_neighbors. 
  
