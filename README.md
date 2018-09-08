@@ -12,6 +12,9 @@ Considere os	dados	do	arquivo	“ex1data1.txt”.	Plote	os	dados	em	um	gráfico	
 
 ![Gráfico](https://github.com/luanprates/trabalho-pos-data-analytics-lucas/blob/master/imagens/Quest%C3%A3o-1.png)
 
+### Resposta
+Com base na visualização verificou-se que os dados claramente apresentão uma **corelação positiva** o que justifica o uso de um modelo de ***Regreção Linear***.
+
 ## Questão 2
 
 Carregue os dados contidos no arquivo “ex2data1.txt”.  O arquivo contem 100 linhas e 3 colunas de dados. Cada coluna se refere a uma variável. Neste problema, deve-se desenvolver um modelo de classificação capaz de reproduzir as classes apresentadas na terceira coluna dos dados.  O problema consiste em um sistema de admissão de alunos em uma universidade. Os dados das colunas 1 e 2 representam as notas de cada aluno em dois testes. A coluna 3 indica se este aluno foi ou não admitido na universidade.  Os dados apresentados são dados históricos de alunos aceitos ou não. Deseja-se fazer um sistema que faça a avaliação dos alunos automaticamente. Apresentar: Figura com os dados. Para a figura, utilize um gráfico em duas dimensões, cada uma contendo uma nota, e diferenciando aprovação e reprovação pela cor dos dados no gráfico. Divida o conjunto de dados entre treino e teste. - Utilize a Regressão Logística para efetuar a classificação nos dados de treino e calcule a acurácia (score) obtida para o conjunto de teste.
