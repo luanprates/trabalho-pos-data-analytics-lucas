@@ -2,13 +2,12 @@
  Trabalho da disciplina de Data Analytics
 
  # Avaliação de	Aprendizagem de	Máquina	em Data	Science/Data Analytics	
-	
-### Deverá	ser	enviado	um	arquivo	texto	contendo	os	gráficos,	resultados	e	comentários	requeridos	em	cada	item.	Obs.	Antes	de	cada	um	dos	exercícios,	normalize	os	dados	de	entrada.	
-	
-	
+
+
 ## Questão 1
 
 Considere os dados	do	arquivo	“ex1data1.txt”.	Plote	os	dados	em	um	gráfico	(com	a	biblioteca	matplotlib)	colocando	a	primeira	coluna	dos	dados	no	eixo	x	e	a	segunda	coluna	no	eixo	y.	Baseado	na	visualização	obtida,	um	modelo	de	regressão	linear	seria	adequado	para	representar	esses	dados?			Para	este	conjunto	de	dados,	considere	a	primeira	coluna	dos	dados	como	o	único	atributo	dos	indivíduos	(X)	e	a	segunda	coluna	é	o	rótulo	dos	mesmos	(y).
+
 
 #### Gráfico 1
 
@@ -16,6 +15,7 @@ Considere os dados	do	arquivo	“ex1data1.txt”.	Plote	os	dados	em	um	gráfico	
 
 #### Resposta 
 Com base na visualização verificou-se que os dados claramente apresentão uma **corelação positiva** o que justifica o uso de um modelo de ***Regreção Linear***.
+
 
 ## Questão 2
 
@@ -27,6 +27,7 @@ Carregue os dados contidos no arquivo “ex2data1.txt”.  O arquivo contem 100 
 #### Resposta
 O modelo SVC Acertou 87.5% com os dados de teste e 100.0% com os dados de treino.
 
+
 ## Questão 3
 
 Carregue os dados contidos no Dataset de Câncer (breast cancer) do scikit-learn. - Divida o conjunto de dados entre treino e teste.  - Utilize o Classificador do SVM (SVC) para realizar a classificação dos dados carregados. - Varie o parâmetro C de 0.1 a 1 e mostre um gráfico contendo a diferença entre os scores obtidos no conjunto de treino para cada valor do parâmetro C. - Varie o parâmetro C de 0.1 a 1 e mostre um gráfico contendo a diferença entre os scores obtidos no conjunto de teste para cada valor do parâmetro C. Justifique as diferenças apresentadas em nos gráficos do treino e do teste para cada valor de C.
@@ -34,9 +35,11 @@ Carregue os dados contidos no Dataset de Câncer (breast cancer) do scikit-learn
 #### Gráfico 3
 ![Gráfico](https://github.com/luanprates/trabalho-pos-data-analytics-lucas/blob/master/imagens/Quest%C3%A3o-3.png)
 
+
 ## Questão 4
 
 Carregue os dados contidos no arquivo “fruit_data_with_colors_miss.txt”.  - Utilize a estratégia de imputar os dados faltantes utilizando a média  dos demais dados. - Divida o conjunto de dados entre treino e teste. - Utilize o Classificador do KNN para realizar a classificação dos dados carregados, com o conjunto de atributos sendo constituído das colunas “mass”, “width”, “height” e “color_score” e o rótulo sendo constituído pela coluna “fruit_label”. - Varie o parâmetro n_neighbors de 1 a 10 e mostre um gráfico contendo a diferença entre os scores obtidos no conjunto de treino para cada valor do parâmetro. - Varie o parâmetro n_neighbors de 1 a 10 e mostre um gráfico contendo a diferença entre os scores obtidos no conjunto de teste para cada valor do parâmetro. Justifique as diferenças apresentadas em nos gráficos do treino e do teste para cada valor de n_neighbors.
+
 
 #### Gráfico 4
 ![Gráfico](https://github.com/luanprates/trabalho-pos-data-analytics-lucas/blob/master/imagens/Quest%C3%A3o-4.png)
