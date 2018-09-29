@@ -90,3 +90,5 @@ Varie o parâmetro hidden_layer_sizes para [10,10], [25,50], [50,25], e [50,50] 
 
 ## Questão	10
 Carregue os dados contidos no Dataset de Câncer (breast cancer) do scikit-learn. - Utilize o modelo K-means para encontrar os grupos dos dados carregados. - Varie o parâmetro n_clusters para 2, 5 e 10. - Calcule a quantidade de elementos em cada cluster para cada valor do parâmetro n_clusters. Para obter a quantidade de elementos que ficaram no cluster i, utilize o código km.labels_[km.labels_ == i].shape[0], considerando que km é a variável que contém o fit sobre o KMeans. Baseado nos resultados das divisões dos dados entre os cluster obtidos na etapa anterior, justifique qual valor você escolheria para n_clusters.
+
+[RESPOSTA](https://github.com/luanprates/trabalho-pos-data-analytics-lucas/blob/master/Quest%C3%A3o%2010.ipynb)
